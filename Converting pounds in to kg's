@@ -1,0 +1,3 @@
+weight = input('enter you weight in pounds ')
+weight_in_kg = int(weight) / 2.205
+print(weight_in_kg)
