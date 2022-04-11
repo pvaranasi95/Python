@@ -1,0 +1,14 @@
+Simple Programm
+a = 10
+b = 20
+print(a + b)
+
+
+Complex programm
+a = input('enter value of a? ')
+b = input('enter value of b? ')
+print(int(a) + int(b))
+
+
+
+Process will be same for subtraction, multiplication and division, Just we need to change operators( -, *, /)
