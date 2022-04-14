@@ -1,0 +1,65 @@
+Greater than(>)
+Greater than or Equals (<=)
+less tham(<)
+less than or Equals (<=)
+Equality(==)
+
+
+
+If name is less than 3 characters long, name must be at least 3 chracters otherwise if it's more than 50 characters long, name can be a maximum of 50 characters. otherwise name looks good
+
+characters = "gg"
+if len(characters) < 3:
+    print("name must be at least three letters")
+
+elif len(characters) > 50:
+    print("name must be a maximum of 50 letters")
+else:
+    print("name looks good")
+    
+    
+ output : name must be at least three letters
+ 
+ 
+ 
+ 
+ characters = "ggouvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvgvg"
+if len(characters) < 3:
+    print("name must be at least three letters")
+
+elif len(characters) > 50:
+    print("name must be a maximum of 50 letters")
+else:
+    print("name looks good")
+    
+    
+    output : name must be a maximum of 50 letters
+    
+    
+    
+   characters = "pavan"
+if len(characters) < 3:
+    print("name must be at least three letters")
+
+elif len(characters) > 50:
+    print("name must be a maximum of 50 letters")
+else:
+    print("name looks good")
+    
+    
+  output : name looks good
+  
+  
+  
+ If temparature is greater than 30 it's a hot day, otherwise if it's less than 10 it's a cold day, otherwise it's neither cold nor hot
+ 
+ temparature = 35
+
+if temparature>30:
+    print("it's a hot day")
+elif temparature<=10:
+    print("it's a cool day")
+else:
+    print("neither cold nor hot")
+    
+   output : it's a hot day
