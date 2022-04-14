@@ -1,0 +1,40 @@
+Addition(+)
+Example: print(10 + 3)
+output: 13
+
+Subtraction(-)
+Example: print(10 - 3)
+output: 7
+
+Multiplication(*)
+Example: print(7 * 3)
+output:21
+
+Division(/)
+Example: print(10 / 3)
+output: 3.3333333333333335
+
+Reminder of division(%)
+Example: print(10 // 3)
+output: 3
+
+Exponent or power(**)
+Example: print(2 ** 3)
+output:8
+
+Operator Presedence
+Problems
+x = 10 + 3 * 2
+print(x)
+
+output = 16
+
+x = 10 + 3 * 2**2
+print(x)
+
+output = 22
+
+x = (2 + 3) * 10 - 3
+print(x)
+
+output = 47
