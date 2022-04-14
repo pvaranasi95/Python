@@ -1,4 +1,5 @@
-course = "Python for beginners"
+course = "Python for beginners" (this line must be used for all the commands, commands will not work with out this line.)
+
 print(course)  - Prints the course message
 output - Python for beginners
 
@@ -18,3 +19,7 @@ output - 7
 print(course.replace(' ',' ')) - replace an one element with another
 Example: print(course.replace('P','p'))
 output - python for beginners
+
+print(' ' in course) - Finds a string in message and returns boolean value(true or false)
+Example: print('Python' in course)
+output - True
