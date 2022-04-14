@@ -1,0 +1,48 @@
+If applicant have good income and good credit , he is eligilble for loan, If not he is not eligilble. 
+
+Programm'
+good_income = True
+good_credit = False
+
+if good_income and good_credit:
+    print("Eligible for loan")
+
+else:
+    print("Not eligible for loan")
+    
+output: If both conditions are true : Eligible for loan
+        If any one of the condition is false : Not eligible for loan
+        
+Same Programm using OR operator
+
+   good_income = True
+   good_credit = False
+
+if good_income or good_credit:
+    print("Eligible for loan")
+
+else:
+    print("Not eligible for loan")
+    
+    output : Eligible for loan
+    
+    
+    
+    
+   If applicant have good income and doesn't have criminal records, He is eligible for loan
+   
+   good_income = True
+criminal_records = False
+
+if good_income and not criminal_records:
+    print("Eligible for loan")
+
+else:
+    print("Not eligible for loan")
+    
+output : Eligible for loan
+    
+    
+    AND : Both conditions must be true
+    OR : Any one of the condition must be true
+    NOT : Converts BOOLEAN values
