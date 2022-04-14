@@ -1,0 +1,20 @@
+course = "Python for beginners"
+print(course)  - Prints the course message
+output - Python for beginners
+
+print(len(course)) - Prints length of the message
+output - 20
+
+print(course.upper()) - Prints the course message in uppercase
+output - PYTHON FOR BEGINNERS
+
+print(course.lower()) - Prints the course message in lowercase
+output - python for beginners
+
+print(course.find('  ')) - find an element in the message
+Example: print(course.find('f'))
+output - 7
+
+print(course.replace(' ',' ')) - replace an one element with another
+Example: print(course.replace('P','p'))
+output - python for beginners
