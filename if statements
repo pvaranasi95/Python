@@ -1,0 +1,37 @@
+is_hot =False
+is_cold = True
+if is_hot:
+    print("it's a hot day")
+    print("drink plenty of water")
+elif is_cold:
+    print("it's a cool day")
+    print("please wear warm clothes")
+else:
+    print("It's a lovely day")
+
+output: it's a cool day
+        please wear warm clothes
+        
+If both statements are false it will return else statement
+        
+
+
+
+Price of a house is 1M, If buyer has good credit. They need to put down 10% otherwise they need to put down 20%. Print the down payment
+
+price = 100000
+good_credit = True
+
+if good_credit:
+    down_payment= 0.1 * 100000
+
+else:
+   down_payment= 0.2 * 100000
+
+print(f"Down paymnet : {down_payment}")
+
+
+output: 10000.0
+
+
+
