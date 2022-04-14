@@ -1,0 +1,19 @@
+x = 2.9
+print(round(x)) (gives output of nearby value)
+
+Output : 3
+
+x = 2.9
+print(abs(-x)) (gives ouput of nearby values even input number is negative)
+
+output : 3 
+
+import math
+print(math.ceil(2.9)) (Gives nearby value greater than input)
+
+output : 3
+
+import math
+print(math.floor(2.9)) (Gives nearby value less than output)
+
+output : 2
