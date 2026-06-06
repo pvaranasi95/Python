@@ -2,6 +2,9 @@ RATE=$(curl -L -s "https://api.frankfurter.app/latest?from=$From&to=$To" | grep 
 
 echo "1 $From = $RATE $To"
 
-Final=$($Amount*$RATE | bc)
+Amount=1000
+RATE=23.572
+
+Final=$(echo "$Amount * $RATE" | bc)
 
 echo "For $Amount $From You Get $Final $To"
