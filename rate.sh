@@ -5,6 +5,6 @@ echo "1 $From = $RATE $To"
 Amount=1000
 RATE=23.572
 
-Final=$(echo "$Amount * $RATE" | bc)
+Final=$(awk "BEGIN {print $Amount * $RATE}")
 
 echo "For $Amount $From You Get $Final $To"
