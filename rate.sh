@@ -5,3 +5,4 @@ echo "1 $From = $RATE $To"
 Final=$(awk "BEGIN {print $Amount * $RATE}")
 
 echo "For $Amount $From You Get $Final $To"
+echo "For $Amount $From You Get $Final $To" > rate.txt
