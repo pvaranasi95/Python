@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh "chmod +x rate.sh"
                 sh "./rate.sh"
+                archiveArtifacts artifacts: 'rate.txt', followSymlinks: false
             }
         }
     }
