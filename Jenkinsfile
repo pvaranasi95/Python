@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh "chmod +x rate.sh"
                 sh "./rate.sh"
-                archiveArtifacts artifacts: 'rate.txt', allowEmptyArchive: true
+                archiveArtifacts artifacts: 'rate.txt'
             }
         }
     }
